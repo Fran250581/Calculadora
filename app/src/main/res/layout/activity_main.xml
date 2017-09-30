@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
     android:weightSum="1"
     tools:context="com.example.fran.com.calculadora.MainActivity">
 
@@ -28,6 +30,7 @@
         android:layout_alignLeft="@+id/textView3"
         android:layout_alignStart="@+id/textView3"
         android:layout_below="@+id/textView3"
+        android:layout_marginRight="15dp"
         android:ems="10"
         android:inputType="number" />
 
@@ -137,11 +140,11 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/button5"
         android:layout_alignTop="@+id/tableLayout2"
         android:layout_toRightOf="@+id/tableLayout2"
         android:orientation="vertical"
         android:weightSum="1"
-        android:layout_alignBottom="@+id/button5"
         tools:ignore="RtlHardcoded">
 
         <Button
